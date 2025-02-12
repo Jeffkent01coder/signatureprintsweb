@@ -50,7 +50,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-green-600 text-white p-3 rounded-full shadow-lg hover:bg-green-700 transition duration-300"
+          className="fixed bottom-8 right-8 bg-yellow-600 text-white p-3 rounded-full shadow-lg hover:bg-yellow-700 transition duration-300"
           aria-label="Back to top"
         >
           ↑

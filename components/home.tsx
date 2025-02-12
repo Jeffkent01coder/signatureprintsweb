@@ -2,14 +2,27 @@ import React, { useState } from 'react';
 
 const HeroSection: React.FC = () => {
   const [showDialog, setShowDialog] = useState(false);
+  const [dialogEmail, setDialogEmail] = useState("");
 
   const openDialog = () => setShowDialog(true);
   const closeDialog = () => setShowDialog(false);
 
+  const sendDialogMessage = () => {
+    // Construct the message text using the email input
+    const messageText = `Email: ${dialogEmail}`;
+    const encodedText = encodeURIComponent(messageText);
+    // Construct the WhatsApp URL (without the '+' sign)
+    const whatsappUrl = `https://wa.me/254116098958?text=${encodedText}`;
+    // Open the WhatsApp URL in a new tab or window
+    window.open(whatsappUrl, "_blank");
+    // Optionally close the dialog after sending
+    setShowDialog(false);
+  };
+
   return (
     <>
       <section
-        id="hero"
+        id="home"
         className="h-screen bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 px-8 py-16 lg:px-32"
       >
         <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0">
@@ -85,10 +98,12 @@ const HeroSection: React.FC = () => {
                 type="email"
                 placeholder="Enter email"
                 className="ml-2 outline-none w-full"
+                value={dialogEmail}
+                onChange={(e) => setDialogEmail(e.target.value)}
               />
             </div>
             <button
-              onClick={closeDialog}
+              onClick={sendDialogMessage}
               className="bg-black text-white px-4 py-2 rounded w-full hover:bg-yellow-400 hover:text-black transition"
             >
               Send

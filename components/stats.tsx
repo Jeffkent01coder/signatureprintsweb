@@ -39,22 +39,22 @@ function ClientCounter() {
         {/* Counter 1 */}
         <div>
           <h1 id="counter1" className="text-white font-bold text-[100px]">{yearsExperience}+ </h1>
-          <p className="text-white text-lg">Years Experience</p>
+          <p className="text-yellow-500  text-lg">Years Experience</p>
         </div>
         {/* Counter 2 */}
         <div>
           <h1 id="counter2" className="text-white font-bold text-[100px]">{completedProjects}+ </h1>
-          <p className="text-white text-lg">Completed Projects</p>
+          <p className="text-yellow-500  text-lg">Completed Projects</p>
         </div>
         {/* Counter 3 */}
         <div>
           <h1 id="counter3" className="text-white font-bold text-[100px]">{professionalTeam}+</h1>
-          <p className="text-white text-lg">Professional Team</p>
+          <p className="text-yellow-500 text-lg">Professional Team</p>
         </div>
         {/* Counter 4 */}
         <div>
           <h1 id="counter4" className="text-white font-bold text-[100px]">{satisfiedClients}%</h1>
-          <p className="text-white text-lg">Satisfied Clients</p>
+          <p className="text-yellow-500  text-lg">Satisfied Clients</p>
         </div>
       </div>
     </section>

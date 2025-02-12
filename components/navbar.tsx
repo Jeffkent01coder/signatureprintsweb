@@ -20,50 +20,36 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo and Brand */}
         <div className="flex items-center space-x-2">
-          <img src="/images/gametribelogo.png" alt="Logo" className="h-8 w-8" />
-          <span className="font-bold text-lg">Signature Prints</span>
+          <img src="/images/logo.png" alt="Logo" className="w-[300px] h-[100px] mb-4" />
+          {/* <span className="font-bold text-lg">Signature Prints</span> */}
         </div>
 
         {/* Navigation Links (Hidden on small screens) */}
         <div className="hidden md:flex items-center space-x-4">
           <div
             onClick={() => scrollToSection("home")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            className="hover:underline hover:text-yellow-500 font-bold transition-all duration-200 hover:scale-105 cursor-pointer"
           >
             Home
           </div>
           <div
-            onClick={() => scrollToSection("about-us")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            onClick={() => scrollToSection("aboutus")}
+            className="hover:underline hover:text-yellow-500 font-bold transition-all duration-200 hover:scale-105 cursor-pointer"
           >
             About Us
           </div>
           <div
-            onClick={() => scrollToSection("projects")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
-          >
-            Projects
-          </div>
-          <div
             onClick={() => scrollToSection("services")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            className="hover:underline hover:text-yellow-500 font-bold transition-all duration-200 hover:scale-105 cursor-pointer"
           >
-            Services
+            Services and Latest Works
           </div>
           <div
-            onClick={() => scrollToSection("contact-us")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            onClick={() => scrollToSection("contactus")}
+            className="hover:underline hover:text-yellow-500 font-bold transition-all duration-200 hover:scale-105 cursor-pointer"
           >
             Contact Us
           </div>
-          <a
-            href="https://discord.com/invite/UKKndhkk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-2 bg-green-600 text-white text-sm font-bold rounded-md hover:bg-green-700 transition duration-200"
-          >
-            Get Started
-          </a>
         </div>
 
         {/* Hamburger Menu */}
@@ -92,42 +78,28 @@ const Navbar: React.FC = () => {
         <div className="flex flex-col items-start px-4 space-y-4">
           <div
             onClick={() => scrollToSection("home")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            className="hover:underline font-bold hover:text-yellow-500 transition-all duration-200 hover:scale-105 cursor-pointer"
           >
             Home
           </div>
           <div
-            onClick={() => scrollToSection("about-us")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            onClick={() => scrollToSection("aboutus")}
+            className="hover:underline font-bold hover:text-yellow-500 transition-all duration-200 hover:scale-105 cursor-pointer"
           >
             About Us
           </div>
           <div
-            onClick={() => scrollToSection("projects")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
-          >
-            Projects
-          </div>
-          <div
             onClick={() => scrollToSection("services")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            className="hover:underline font-bold hover:text-yellow-500 transition-all duration-200 hover:scale-105 cursor-pointer"
           >
-            Services
+            Services and Latest Works
           </div>
           <div
-            onClick={() => scrollToSection("contact-us")}
-            className="hover:underline transition-all duration-200 hover:scale-105 cursor-pointer"
+            onClick={() => scrollToSection("contactus")}
+            className="hover:underline font-bold hover:text-yellow-500 transition-all duration-200 hover:scale-105 cursor-pointer"
           >
             Contact Us
           </div>
-          <a
-            href="https://discord.com/invite/UKKndhkk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-2 bg-green-600 text-white text-sm font-bold rounded-md hover:bg-green-700 transition duration-200"
-          >
-            Get Started
-          </a>
         </div>
       </div>
     </nav>

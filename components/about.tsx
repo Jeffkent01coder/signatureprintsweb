@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="bg-black text-white px-8 py-16 lg:px-32">
+    <section id="aboutus" className="bg-black text-white px-8 py-16 lg:px-32">
       <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0">
         {/* Left Column */}
         <div className="fade-in-up">
@@ -15,24 +15,33 @@ const About: React.FC = () => {
         {/* Right Column */}
         <div className="text-center lg:text-left max-w-lg space-y-6">
           <div className="flex items-center space-x-4">
-            <div className="h-1 w-12 bg-gold"></div>
-            <h2 className="text-4xl font-bold">About Us</h2>
+            <div className="h-1 w-12 bg-yellow-500"></div>
+            <h2 className="text-4xl text-yellow-500 font-bold">About Us</h2>
           </div>
           <p className="text-white">
-            Welcome to Signature Prints, where creativity meets precision to bring your branding dreams to life. Established with a passion for delivering top-notch branding solutions, we pride ourselves on exceeding customer expectations and setting industry standards.
+            Welcome to Signature Prints, where creativity meets precision to
+            bring your branding dreams to life. Established with a passion for
+            delivering top-notch branding solutions, we pride ourselves on
+            exceeding customer expectations and setting industry standards.
           </p>
-          <h3 className="text-gold text-2xl font-semibold mt-4">WHAT WE DO</h3>
+          <h3 className="text-yellow-500 text-2xl text-yellow-500 font-semibold mt-4">WHAT WE DO</h3>
           <p>
-            Cloth Branding: We transform plain textiles into striking, customized pieces that reflect your brand&apos;s identity or personal style.
+          <span className="text-yellow-500">Cloth Branding:</span> We transform plain textiles into striking,
+            customized pieces that reflect your brand&apos;s identity or
+            personal style.
           </p>
           <p>
-            Plain Cloth Delivery: Need plain, high-quality fabrics? We&apos;ve got you covered with a wide selection of textiles suitable for diverse needs.
+          <span className="text-yellow-500">Plain Cloth Delivery:</span> Need plain, high-quality fabrics? We&apos;ve
+            got you covered with a wide selection of textiles suitable for
+            diverse needs.
           </p>
           <p>
-            Product Branding: Elevate your products with unique, eye-catching designs tailored to your audience.
+          <span className="text-yellow-500">Product Branding:</span> Elevate your products with unique, eye-catching
+            designs tailored to your audience.
           </p>
           <p>
-            Graphic Design: Our team of talented designers crafts visually compelling graphics that tell your story.
+          <span className="text-yellow-500"> Graphic Design:</span> Our team of talented designers crafts visually
+            compelling graphics that tell your story.
           </p>
         </div>
       </div>
@@ -47,7 +56,11 @@ const About: React.FC = () => {
             className="w-full lg:w-[100px] h-auto mx-auto"
           />
           <p className="text-center mt-4 text-black">
-            At Signature Prints, quality is at the heart of everything we do. We combine state-of-the-art technology, skilled craftsmanship, and personalized service to exceed your expectations. Every project is a collaboration where your ideas inspire our designs. We are committed to delivering products that not only meet but elevate your brand standards.
+            We are dedicated to offering exceptional service, timely delivery,
+            and unmatched quality in every project we undertake. At Signature
+            Prints, we prioritize customer satisfaction, ensuring that every
+            design, print, and delivery exceeds expectations. Your brand’s
+            success is our commitment!
           </p>
         </div>
         {/* Card 2 */}
@@ -58,7 +71,11 @@ const About: React.FC = () => {
             className="w-full lg:w-[100px] h-auto mx-auto"
           />
           <p className="text-center mt-4 text-black">
-            At Signature Prints, quality is at the heart of everything we do. We combine state-of-the-art technology, skilled craftsmanship, and personalized service to exceed your expectations. Every project is a collaboration where your ideas inspire our designs. We are committed to delivering products that not only meet but elevate your brand standards.
+            At Signature Prints, our mission is to provide high-quality
+            branding, design, and printing solutions that help businesses and
+            individuals create a strong and lasting impression. We are committed
+            to delivering innovative, customized, and reliable services,
+            ensuring that every product reflects excellence and creativity
           </p>
         </div>
         {/* Card 3 */}
@@ -69,7 +86,11 @@ const About: React.FC = () => {
             className="w-full lg:w-[100px] h-auto mx-auto"
           />
           <p className="text-center mt-4 text-black">
-            At Signature Prints, quality is at the heart of everything we do. We combine state-of-the-art technology, skilled craftsmanship, and personalized service to exceed your expectations. Every project is a collaboration where your ideas inspire our designs. We are committed to delivering products that not only meet but elevate your brand standards.
+            Our vision is to be Kenya’s leading provider of product branding,
+            cloth branding, graphic design, and plain cloth delivery services.
+            We aim to set the standard for quality, innovation, and customer
+            satisfaction, empowering businesses and individuals to enhance their
+            brand identity and market presence.
           </p>
         </div>
       </div>
