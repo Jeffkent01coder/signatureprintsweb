@@ -30,11 +30,12 @@ function WhyUs() {
           {/* Left Column */}
           <div>
             <img
-              src="/images/why.png"
+              src="/images/whypj.png"
               alt="Why Choose Us Image"
-              className="w-full lg:w-[508px] h-auto rounded-lg shadow-lg"
+              className="w-[508px] lg:w-[1000px] h-[400px] rounded-lg shadow-lg"
             />
           </div>
+
           {/* Right Column */}
           <div className="max-w-lg mr-8 space-y-6">
             {/* Title */}
@@ -61,8 +62,8 @@ function WhyUs() {
                 <span className="text-yellow-500">
                   <b>High-Quality Designs & Prints</b>
                 </span>{" "}
-                – We use top-notch materials and cutting-edge technology to ensure
-                every design, print, or branded product meets the highest
+                – We use top-notch materials and cutting-edge technology to
+                ensure every design, print, or branded product meets the highest
                 standards.
               </li>
               <li>
@@ -76,15 +77,16 @@ function WhyUs() {
                 <span className="text-yellow-500">
                   <b>Customized Solutions</b>
                 </span>{" "}
-                – We tailor our services to match your specific needs, ensuring your
-                brand stands out with unique and personalized designs.
+                – We tailor our services to match your specific needs, ensuring
+                your brand stands out with unique and personalized designs.
               </li>
               <li>
                 <span className="text-yellow-500">
                   <b>Affordable & Competitive Pricing</b>
                 </span>{" "}
                 – We offer quality branding and design solutions at fair prices,
-                making professional branding accessible to businesses of all sizes.
+                making professional branding accessible to businesses of all
+                sizes.
               </li>
             </ol>
             {/* Get Started Button */}
