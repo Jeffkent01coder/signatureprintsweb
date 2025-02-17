@@ -79,11 +79,17 @@ const ServicesAndRecents: React.FC = () => {
         "/images/t2.jpg",
         "/images/t3.jpg",
         "/images/tote.jpg",
+        "/images/gt1.jpg",
+        "/images/gt2.jpg",
+        "/images/gt3.jpg",
+        "/images/gt4.jpg",
+        "/images/gt5.jpg",
+        "/images/gt6.jpg",
       ],
       videoUrl: null,
       fullDescription:
         "We provide cloth branding services countywide in Kenya, helping businesses and individuals customize their fabrics with unique designs and logos. Our efficient process ensures high-quality branding with fast delivery, allowing clients to enhance their identity without delays",
-      client: "Several Clients across the country",
+      client: "Several Clients across the country, GameTribe",
       type: "Branding",
       year: "2024, 2025",
       previewUrl:
