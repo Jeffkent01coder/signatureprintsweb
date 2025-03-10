@@ -35,13 +35,11 @@ const ServicesAndRecents: React.FC = () => {
       videoUrl: null,
       fullDescription:
         "Our product branding services in Kenya cover everything from packaging design and labels to customized promotional materials. We work closely with businesses to develop visually compelling and strategic branding that makes products stand out in the market. Whether you need custom prints, labels, or full product packaging solutions, we ensure high-quality, innovative designs that align with your brand identity and target audience.",
-      client:
-        "Several Clients across the country",
+      client: "Several Clients across the country",
       type: "Branding",
       year: "2024, 2025",
       previewUrl: "#",
-      quote:
-        "A brand is not just a product, it's a promise.",
+      quote: "A brand is not just a product, it's a promise.",
       quoteAuthor: "David Aaker",
     },
     {
@@ -60,8 +58,7 @@ const ServicesAndRecents: React.FC = () => {
       type: "Graphic Design",
       year: "2024, 2025",
       previewUrl: "#",
-      quote:
-        "Design is the silent ambassador of your brand.",
+      quote: "Design is the silent ambassador of your brand.",
       quoteAuthor: "Paul Rand",
     },
     {
@@ -92,15 +89,14 @@ const ServicesAndRecents: React.FC = () => {
       client: "Several Clients across the country, GameTribe",
       type: "Branding",
       year: "2024, 2025",
-      previewUrl:
-        "#",
-      quote:
-        "Quality means doing it right when no one is looking.",
+      previewUrl: "#",
+      quote: "Quality means doing it right when no one is looking.",
       quoteAuthor: "Henry Ford",
     },
     {
       title: "Plain Cloth Delivery",
-      description: "Kenya's plain cloth delivery services have expanded nationwide, offering a reliable and efficient way for businesses and individuals to receive fabrics directly to their doorstep",
+      description:
+        "Kenya's plain cloth delivery services have expanded nationwide, offering a reliable and efficient way for businesses and individuals to receive fabrics directly to their doorstep",
       images: [
         "/images/plainJamper.png",
         "/images/p1.jpg",
@@ -124,8 +120,41 @@ const ServicesAndRecents: React.FC = () => {
       type: "Sales and Delivery",
       year: "2024, 2025",
       previewUrl: "#",
-      quote: "Coming together is a beginning, staying together is progress, and working together is success.",
+      quote:
+        "Coming together is a beginning, staying together is progress, and working together is success.",
       quoteAuthor: "Henry Ford",
+    },
+    {
+      title: "Shoes Thrift",
+      description:
+        "Delivering the latest and all sorts of quality shoes countywide.",
+      images: [
+        "/images/s1.jpg",
+        "/images/s2.jpg",
+        "/images/s3.jpg",
+        "/images/s4.jpg",
+        "/images/s5.jpg",
+        "/images/s6.jpg",
+        "/images/s7.jpg",
+        "/images/s8.jpg",
+        "/images/s9.jpg",
+        "/images/s10.jpg",
+        "/images/s11.jpg",
+        "/images/s12.jpg",
+        "/images/s13.jpg",
+        "/images/s14.jpg",
+        "/images/s15.jpg",
+        "/images/s16.jpg",
+        "/images/s17.jpg",
+      ],
+      videoUrl: null,
+      fullDescription: "Our shoe delivery service offers a curated selection of the latest and finest quality shoes from various brands and styles. We ensure prompt and efficient delivery to customers across the county, catering to all tastes—from trendy sneakers to elegant dress shoes. Experience convenience, quality, and style with every step you take.",
+      client: "Several Clients Country Wide",
+      type: "Footwear Sales and Delivery",
+      year: "2025",
+      previewUrl: "#",
+      quote: "Give a girl the right shoes, and she can conquer the world.",
+      quoteAuthor: "Marilyn Monroe",
     },
   ];
 
